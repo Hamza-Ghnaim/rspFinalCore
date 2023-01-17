@@ -1,0 +1,54 @@
+body {
+  /* zoom: 45%; */
+}
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 81.03%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.rock {
+  width: 144px;
+  height: 116px;
+}
+.paper {
+  width: 100px;
+  height: 140px;
+}
+.scissor {
+  width: 131px;
+  height: 138px;
+}
+
+.labels {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}

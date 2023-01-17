@@ -1,0 +1,146 @@
+* {
+  font-family: "Roboto";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #222222;
+}
+body {
+  height: 100%;
+  background: linear-gradient(
+    251.66deg,
+    rgba(114, 240, 236, 0.513319) -9.31%,
+    rgba(114, 240, 236, 0) 131.16%
+  );
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* bottom: 81.03%; */
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.selection {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 140px;
+}
+.labels {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.rock {
+  width: 231.43px;
+  height: 177.96px;
+}
+
+.paper {
+  width: 166px;
+  height: 232px;
+}
+
+.scissor {
+  width: 242px;
+  height: 254.78px;
+}
+
+.selection1 {
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 200px;
+}
+
+.bot-rock {
+  transform: scaleX(-1);
+  width: 252px;
+  height: 205px;
+}
+.bot-paper {
+  transform: scaleX(-1);
+  width: 252px;
+  height: 205px;
+}
+.bot-scissor {
+  transform: scaleX(-1);
+  width: 252px;
+  height: 205px;
+}
+
+/* @media (max-width: 937px) {
+  body {
+    zoom: 45%;
+  }
+  .selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .container h2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 81.03%;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+
+  .rock {
+    width: 244px;
+    height: 216px;
+  }
+  .paper {
+    width: 200px;
+    height: 240px;
+  }
+  .scissor {
+    width: 231px;
+    height: 238px;
+  }
+
+  .labels {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+} */
